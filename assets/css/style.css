@@ -1,4 +1,4 @@
-* demo */
+/* demo */
 
 * {
   font-family: monospace;
@@ -56,10 +56,9 @@ a {
 }
 
 /* this element makes sure we preserve 16:9 aspect ratio */
+/* for unity versions older than 2020, this is set in-line in index.html */
 
-.aspect {
-  margin-top: calc(100% / {{{ WIDTH }}} * {{{ HEIGHT }}});
-}
+.aspect { }
 
 /* progress bar */
 
